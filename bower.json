@@ -1,0 +1,25 @@
+{
+  "name": "stylesheet",
+  "version": "1.0.0",
+  "homepage": "https://github.com/codenameyau/stylesheet",
+  "authors": [
+    "Jorge Yau <jyau01@citymail.cuny.edu>"
+  ],
+  "description": "Create sylesheets with JavaScript",
+  "main": "src/stylesheet.js",
+  "keywords": [
+    "css",
+    "stylesheet",
+    "js",
+    "dynamic"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.md"
+  ]
+}
