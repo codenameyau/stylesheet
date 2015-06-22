@@ -1,5 +1,5 @@
 /*!
- * stylesheet - v1.0.0
+ * stylesheet - v1.0.1
  * MIT License (c) 2015
  * https://github.com/codenameyau/stylesheet
  */
@@ -31,6 +31,7 @@ function StyleSheet() {
 * STYLESHEET PUBLIC METHODS
 *********************************************************************/
 StyleSheet.prototype.setSelector = function(selector) {
+  this.clearBuffer();
   this.selector = selector;
 };
 
